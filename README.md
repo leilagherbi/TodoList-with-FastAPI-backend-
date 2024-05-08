@@ -27,11 +27,6 @@ I'm an Engineer at Administration and Network Security.
 I have some knowledge on web development.
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
-
 ## Example
 
 ```bash
