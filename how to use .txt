@@ -1,0 +1,21 @@
+
+first install maysql db using xampp application
+create database
+second install python
+
+# create vertual enverenment
+python -m venv venv
+# activate venv
+venv\Scripts\activate
+# upgrade and install requirements
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+# create migration
+aerich -h
+aerich init -t db_config.ORM
+aerich init-db
+
+finally use postman or TestMace to make test ToDoList API
+
+http:/localhost:8080/api/v1/
